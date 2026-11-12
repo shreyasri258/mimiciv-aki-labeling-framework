@@ -71,13 +71,13 @@ processed_outputs/   #outputs created by the notebooks
 
 ---
 
-### 4. Environment
+## 4. Environment
 
 - Python **3.13.9**
 - Main packages: `pandas`, `numpy`, `scikit-learn`, `duckdb`, `matplotlib`, `pyarrow`, `openpyxl`
 - Versions are mentioned in `requirements.txt`
 
-## 5. How to run
+## 5. Steps to Run
 
 Run from the project root so that relative paths resolve.
 
@@ -143,7 +143,7 @@ A parquet file hash can differ across `pandas` and `pyarrow` versions even when 
 
 ---
 
-## 7. Reproducibility:
+## 7. Reproducibility
 
 - Fixed seeds with bootstrap seed 42, 1,000 resamples is used.
 - `RERUN = False` uses the saved results. The cache is not distributed because it contains patient-level labels.
