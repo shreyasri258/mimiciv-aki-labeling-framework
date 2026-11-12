@@ -1,0 +1,25 @@
+variant,changed_parameter,affects_by_design,affects_observed,cohort_n,early_excluded_n,left_cohort_n,left_cohort_aki_pos,entered_cohort_n,entered_cohort_aki_pos,common_stays_n,labels_changed_common,neg_to_pos,pos_to_neg,common_with_reference_n
+baseline,none (primary V5),reference,neither,28977,22829,0,0,0,0,28977,0,0,0,26610
+gap_6h,max_gap_hours=6,both,both,31608,20189,8,6,2639,693,28969,1727,0,1727,26602
+gap_12h,max_gap_hours=12,both,both,29428,22375,3,3,454,190,28974,629,0,629,26607
+gap_18h,max_gap_hours=18,both,both,29028,22777,1,1,52,20,28976,236,0,236,26609
+gap_24h,max_gap_hours=24,both,both,28990,22816,0,0,13,6,28977,98,0,98,26610
+unevaluable_negative,evaluability_mode=negative,cohort,cohort,29007,22829,0,0,30,1,28977,0,0,0,26610
+unevaluable_excluded_strict,evaluability_mode=strict_exclude_unevaluable,cohort,cohort,17045,22829,11932,1030,0,0,17045,0,0,0,17045
+weight_full_stay,weight_source=full_stay,both,both,26749,25067,2273,389,45,25,26704,941,914,27,24357
+weight_durations_ref,weight_source=weight_durations,both,both,25801,26026,3858,466,682,320,25119,1787,1590,197,23013
+rolling_baseline,baseline_method=rolling,both,both,27901,23905,1077,552,1,0,27900,28,28,0,25632
+gap12h_rolling,max_gap_hours=12 + baseline_method=rolling,both,both,28334,23469,1080,555,437,179,27897,640,28,612,25629
+exact_arithmetic,exact15=True (integer 1.5x test),both,both,28845,22961,132,50,0,0,28845,27,27,0,26487
+crrt_mode_required,crrt_set=mode,labels,labels,28977,22829,0,0,0,0,28977,17,0,17,26610
+early_excl_crrt,early_crrt=True,cohort,cohort,28865,22941,112,85,0,0,28865,0,0,0,26513
+early_excl_wd_weight,early_weight=weight_durations,cohort,cohort,25792,26026,3858,466,673,420,25119,0,0,0,23013
+early_excl_union_ref,early_union_ref=True,cohort,cohort,24363,27454,4614,972,0,0,24363,0,0,0,22309
+weight_fill_pre_icu,weight_source=pre_icu_fill,both,both,25268,26559,3718,405,9,7,25259,1541,1541,0,23144
+baseline_median7,baseline_alt=median7,both,both,29497,22309,0,0,520,203,28977,25,0,25,26610
+baseline_ckdepi_fb,baseline_alt=ckdepi_fallback,both,both,28234,23572,749,292,6,1,28228,16,15,1,25897
+baseline_ckdepi_all,baseline_alt=ckdepi_all,both,both,24984,26822,4515,1673,522,211,24462,135,102,33,22415
+urine_consecutive,urine_method=consecutive,both,both,35134,16671,22,6,6179,2451,28955,1693,0,1693,26589
+icu_censored,data swap: creatinine after ICU outtime removed,both,both,28970,22829,7,0,0,0,28970,576,0,576,26608
+baseline_aug,"data swap: 3,997 extra creatinine rows added",both,both,28899,22908,78,29,0,0,28899,10,10,0,26537
+baseline_gapfix,data swap: urine gaps recomputed after cleaning,both,both,28976,22830,1,1,0,0,28976,1,1,0,26609
