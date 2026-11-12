@@ -1,0 +1,15 @@
+# Reference run: Python 3.13.9. All versions below are from the environment
+# used for the analysis.
+ 
+pandas==2.3.3
+numpy==2.3.5
+duckdb==1.5.5
+matplotlib==3.10.6
+scikit-learn==1.7.2
+pyarrow==21.0.0
+openpyxl==3.1.5
+ 
+# To run the notebooks
+jupyterlab==4.4.7
+ipykernel==6.31.0
+ 
