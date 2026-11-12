@@ -1,0 +1,4 @@
+Outcome,n compared,Kappa,TP,FP,FN,TN,Sensitivity,Specificity,PPV,NPV
+Combined (any KDIGO criterion or CRRT),"26,610",0.6234,"6,405","1,082","3,343","15,780",0.657,0.936,0.855,0.825
+Creatinine criteria only,"26,610",0.8548,-,-,-,-,-,-,-,-
+Urine-output criteria only,"26,610",0.5779,-,-,-,-,-,-,-,-

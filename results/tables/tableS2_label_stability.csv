@@ -1,0 +1,24 @@
+Variant,Common N,Labels changed N,Negative to positive,Positive to negative,Label stability %
+weight_durations_ref,"25,119","1,787","1,590",197,92.886
+weight_fill_pre_icu,"25,259","1,541","1,541",0,93.899
+gap_6h,"28,969","1,727",0,"1,727",94.038
+urine_consecutive,"28,955","1,693",0,"1,693",94.153
+weight_full_stay,"26,704",941,914,27,96.476
+gap12h_rolling,"27,897",640,28,612,97.706
+gap_12h,"28,974",629,0,629,97.829
+icu_censored,"28,970",576,0,576,98.012
+gap_18h,"28,976",236,0,236,99.186
+baseline_ckdepi_all,"24,462",135,102,33,99.448
+gap_24h,"28,977",98,0,98,99.662
+rolling_baseline,"27,900",28,28,0,99.900
+exact_arithmetic,"28,845",27,27,0,99.906
+baseline_median7,"28,977",25,0,25,99.914
+crrt_mode_required,"28,977",17,0,17,99.941
+baseline_ckdepi_fb,"28,228",16,15,1,99.943
+baseline_aug,"28,899",10,10,0,99.965
+baseline_gapfix,"28,976",1,1,0,99.997
+early_excl_crrt,"28,865",0,0,0,100.000
+early_excl_union_ref,"24,363",0,0,0,100.000
+early_excl_wd_weight,"25,119",0,0,0,100.000
+unevaluable_excluded_strict,"17,045",0,0,0,100.000
+unevaluable_negative,"28,977",0,0,0,100.000

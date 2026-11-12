@@ -1,0 +1,26 @@
+Characteristic,"All analysis stays (N = 28,977)","AKI-negative (N = 21,353)","AKI-positive (N = 7,624)"
+N (stays),"28,977","21,353","7,624"
+"Age, years, median [IQR]","64.0 [52.0, 75.0]","63.0 [50.0, 74.0]","67.0 [56.0, 78.0]"
+"Sex, n (%)",,,
+  Male,"16,058 (55.4%)","11,533 (54.0%)","4,525 (59.4%)"
+  Female,"12,919 (44.6%)","9,820 (46.0%)","3,099 (40.6%)"
+"Admission type, n (%)",,,
+  EW EMER.,"14,229 (49.1%)","10,739 (50.3%)","3,490 (45.8%)"
+  URGENT,"4,812 (16.6%)","3,329 (15.6%)","1,483 (19.5%)"
+  OBSERVATION ADMIT,"4,429 (15.3%)","3,308 (15.5%)","1,121 (14.7%)"
+  SURGICAL SAME DAY ADMISSION,"3,533 (12.2%)","2,617 (12.3%)",916 (12.0%)
+  ELECTIVE,"1,004 (3.5%)",630 (3.0%),374 (4.9%)
+  DIRECT EMER.,839 (2.9%),606 (2.8%),233 (3.1%)
+  EU OBSERVATION,87 (0.3%),85 (0.4%),2 (0.0%)
+  Other,44 (0.2%),39 (0.2%),5 (0.1%)
+"First ICU care unit, n (%)",,,
+  Medical Intensive Care Unit (MICU),"5,070 (17.5%)","3,767 (17.6%)","1,303 (17.1%)"
+  Cardiac Vascular Intensive Care Unit (CVICU),"4,568 (15.8%)","2,577 (12.1%)","1,991 (26.1%)"
+  Medical/Surgical Intensive Care Unit (MICU/SICU),"4,489 (15.5%)","3,486 (16.3%)","1,003 (13.2%)"
+  Surgical Intensive Care Unit (SICU),"4,338 (15.0%)","3,549 (16.6%)",789 (10.3%)
+  Trauma SICU (TSICU),"3,234 (11.2%)","2,575 (12.1%)",659 (8.6%)
+  Neuro Intermediate,"3,003 (10.4%)","2,506 (11.7%)",497 (6.5%)
+  Coronary Care Unit (CCU),"2,787 (9.6%)","1,697 (7.9%)","1,090 (14.3%)"
+  Other,"1,488 (5.1%)","1,196 (5.6%)",292 (3.8%)
+"ICU length of stay, days, median [IQR]","2.2 [1.5, 4.0]","2.1 [1.4, 3.7]","2.8 [1.9, 4.8]"
+"ESRD or chronic dialysis, n (%)",531 (1.8%),201 (0.9%),330 (4.3%)
